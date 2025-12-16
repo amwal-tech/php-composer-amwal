@@ -1,0 +1,23 @@
+{
+    "name": "amwal/php-sdk-composer",
+    "description": "Official Amwal Payment Gateway SDK for PHP",
+    "type": "library",
+    "version": "1.0.0",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Amwal\\Payment\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "authors": [
+        {
+            "name": "Amwal Tech",
+            "email": "support@amwal.tech"
+        }
+    ]
+}
