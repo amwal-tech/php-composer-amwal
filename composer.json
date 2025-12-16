@@ -1,6 +1,6 @@
 {
     "name": "amwal/php-sdk-composer",
-    "description": "Official Amwal Payment Gateway SDK for PHP",
+    "description": "A modern, intuitive PHP composer packages for seamless integration with the Amwal Tech. Create payments, handle callbacks, check statuses, and process refunds with minimal code.",
     "type": "library",
     "version": "1.0.0",
     "license": "MIT",

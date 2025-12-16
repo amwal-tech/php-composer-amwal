@@ -56,7 +56,8 @@ echo 'Amwal Payment Link ID '.$payment['payment_link_id'];
 
     // Getting Transaction ID details
     $transactionDetails=$amwal->getPaymentDetails('amwal-trx-ID',false);
-    echo 'Specific Transaction Details: <pre>'; print_r($transactionDetails);
+    echo 'Specific Transaction Details: <pre>'; 
+    print_r($transactionDetails);
 ```
 
 ### Refund / Partial refund amount for specific transaction
@@ -66,6 +67,7 @@ echo 'Amwal Payment Link ID '.$payment['payment_link_id'];
     'transaction_id'=>'amwal-trx-ID',
     ];
     $refundDetails=$amwal->refundPayment($refundData);
-    echo 'Refund Details: <pre>'; print_r($refundDetails);
+    echo 'Refund Details: <pre>'; 
+    print_r($refundDetails);
 ```
 
