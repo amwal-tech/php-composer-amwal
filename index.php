@@ -9,11 +9,11 @@ $amwal = new AmwalPay([
 ]);
 
 $paymentData=[
-    'amount'=>100,
-    // 'currency'=>'SAR',
+    'amount'=>100, // minimum requirement 
+    // 'language'=>'en',
     // 'description'=>'Test Payment',
-    // 'customer_email'=>'test@example.com',
-    // 'callbackUrl'=>'https://example.com/callback',
+    // 'client_email'=>'test@example.com',
+    // 'callback_url'=>'https://example.com/callback',
     // 'client_phone_number'=>'+966501234567',
 ];
 $storeId='8ff41fae-709a-46da-9b27-a5d2b1059e67';

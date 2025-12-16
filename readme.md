@@ -37,10 +37,10 @@ $storeId='Amwal-Store-ID';
 // Payment Object
 $paymentData=[
     'amount'=>100, // minimum requirement 
-    // 'currency'=>'SAR',
+    // 'language'=>'en',
     // 'description'=>'Test Payment',
-    // 'customer_email'=>'test@example.com',
-    // 'callbackUrl'=>'https://example.com/callback',
+    // 'client_email'=>'test@example.com',
+    // 'callback_url'=>'https://example.com/callback',
     // 'client_phone_number'=>'+966501234567',
 ];
 
